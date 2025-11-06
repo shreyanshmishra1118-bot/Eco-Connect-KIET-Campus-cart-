@@ -6,9 +6,9 @@ const Header: React.FC = () => {
 
   const navLinks = [
     { name: 'Home', href: '#home' },
-    { name: 'Services', href: '#services' },
     { name: 'The Challenge', href: '#challenge' },
-    { name: 'Features', href: '#features' },
+    { name: 'Services', href: '#services' },
+    { name: 'Marketplace', href: '#marketplace' },
     { name: 'Impact', href: '#impact' },
   ];
 

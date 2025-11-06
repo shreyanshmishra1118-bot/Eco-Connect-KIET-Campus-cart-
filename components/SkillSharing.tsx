@@ -1,8 +1,9 @@
+
 import React from 'react';
 import { UserCircleIcon, UploadCloudIcon, ShieldCheckIcon, LayoutDashboardIcon, SmartphoneIcon, BellIcon } from './icons';
 
 const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string; number: string; }> = ({ icon, title, description, number }) => (
-    <div className="relative bg-slate-800 p-8 rounded-lg overflow-hidden">
+    <div className="relative bg-slate-800 p-8 rounded-lg overflow-hidden h-full">
         <div className="absolute top-6 right-6 text-5xl font-bold text-slate-700">{number}</div>
         <div className="relative z-10">
             <div className="text-emerald-400 mb-4">{icon}</div>
@@ -12,7 +13,7 @@ const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description:
     </div>
 );
 
-const SkillSharing: React.FC = () => {
+const Features: React.FC = () => {
     const features = [
         { icon: <UserCircleIcon className="w-8 h-8"/>, title: 'User Registration & Profiles', description: 'Quick sign-up with KIET credentials and customizable student profiles.', number: '01' },
         { icon: <UploadCloudIcon className="w-8 h-8"/>, title: 'Easy Listing System', description: 'Simple forms for products and skills with photo uploads and descriptions.', number: '02' },
@@ -66,7 +67,7 @@ const SkillSharing: React.FC = () => {
             <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-10">Powerful Platform Features</h2>
                 <div className="grid md:grid-cols-2 gap-6">
-                    {features.slice(0, 4).map(f => <FeatureCard key={f.number} {...f} />)}
+                    {features.map(f => <FeatureCard key={f.number} {...f} />)}
                 </div>
             </div>
         </div>
@@ -75,4 +76,4 @@ const SkillSharing: React.FC = () => {
   );
 };
 
-export default SkillSharing;
+export default Features;
