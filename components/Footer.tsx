@@ -9,8 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8">
             <div className="md:col-span-1">
                 <h3 className="text-2xl font-bold font-montserrat text-slate-100">
-                    <span className="text-emerald-400">Eco</span>-
-                    <span className="text-sky-400">Connect</span> KIET
+                    Campus <span className="text-emerald-400">Cart</span>
                 </h3>
                 <p className="text-slate-500 mt-2">A sustainable campus marketplace for students.</p>
             </div>
@@ -28,7 +27,7 @@ const Footer: React.FC = () => {
             </div>
         </div>
         <div className="mt-12 border-t border-slate-800 pt-8 text-center text-slate-500">
-            <p>&copy; {new Date().getFullYear()} Eco-Connect KIET. All Rights Reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Campus Cart. All Rights Reserved.</p>
             <p className="text-xs text-slate-600 mt-4">
               Designed & Developed by <a href="https://wdesine.com" target="_blank" rel="noopener noreferrer" className="hover:text-sky-400 transition-colors">Shreyannsh Mishra (wdesine)</a>
               {' | '}

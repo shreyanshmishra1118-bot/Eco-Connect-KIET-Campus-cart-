@@ -1,5 +1,6 @@
 {
-  "name": "Eco-Connect KIET | Campus cart 🛒",
-  "description": "A sustainable campus marketplace for students at KIET, offering services like a used product marketplace, peer-to-peer skill sharing, electric e-cart transport, and an eco-friendly photocopy service.",
+  "name": "Campus Cart 🛒",
+  "description": "Campus Cart is a sustainable campus marketplace for students at KIET, offering services like a used product marketplace, peer-to-peer skill sharing, electric e-cart transport, and an eco-friendly photocopy service.",
+  "homepage_url": "https://campuscart.app",
   "requestFramePermissions": []
 }

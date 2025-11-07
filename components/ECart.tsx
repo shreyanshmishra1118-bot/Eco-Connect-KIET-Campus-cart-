@@ -19,7 +19,7 @@ const CampusServices: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Innovative Campus Services</h2>
-                <p className="text-lg text-slate-400 mb-10">Beyond the marketplace, Eco-Connect provides essential services that transform daily campus life, from eliminating long walks to providing sustainable printing on demand.</p>
+                <p className="text-lg text-slate-400 mb-10">Beyond the marketplace, Campus Cart provides essential services that transform daily campus life, from eliminating long walks to providing sustainable printing on demand.</p>
                 <div className="space-y-8">
                     <ServiceItem icon={<CalendarDaysIcon className="w-7 h-7"/>} title="E-Cart Scheduling" description="Reserve rides in advance or book on-demand based on real-time vehicle availability."/>
                     <ServiceItem icon={<TicketIcon className="w-7 h-7"/>} title="Membership Plans" description="Daily, weekly, or semester passes with discounted rates for frequent riders."/>

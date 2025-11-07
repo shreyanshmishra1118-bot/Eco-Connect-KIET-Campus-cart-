@@ -18,8 +18,7 @@ const Header: React.FC = () => {
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold font-montserrat text-slate-100">
             <a href="#home">
-              <span className="text-emerald-400">Eco</span>-
-              <span className="text-sky-400">Connect</span> KIET
+              Campus <span className="text-emerald-400">Cart</span>
             </a>
           </div>
           <div className="hidden md:flex items-center space-x-8">

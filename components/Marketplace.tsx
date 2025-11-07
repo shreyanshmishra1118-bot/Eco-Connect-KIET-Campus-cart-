@@ -77,7 +77,7 @@ const Marketplace: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white">Featured in the Marketplace</h2>
-          <p className="text-lg text-slate-400 mt-4">The heart of Eco-Connect is our vibrant marketplace. Discover items and skills shared by fellow students, promoting a circular economy on campus.</p>
+          <p className="text-lg text-slate-400 mt-4">The heart of Campus Cart is our vibrant marketplace. Discover items and skills shared by fellow students, promoting a circular economy on campus.</p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product, index) => (

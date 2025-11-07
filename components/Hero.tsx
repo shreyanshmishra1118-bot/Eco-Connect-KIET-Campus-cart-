@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
               Building a <span className="text-emerald-400">Sustainable Future</span> Together
             </h1>
             <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-xl mx-auto md:mx-0">
-              Eco-Connect KIET is a movement toward a greener, more connected campus community where every transaction, ride, and interaction contributes to a sustainable future.
+              Campus Cart is a movement toward a greener, more connected campus community where every transaction, ride, and interaction contributes to a sustainable future.
             </p>
             <div className="flex justify-center md:justify-start space-x-4">
               <a href="#services" className="bg-emerald-500 text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-emerald-600 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-emerald-500/30">
